@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .custom-shape-divider-bottom-1700638250 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1700638250 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 98px;
+}
+
+.custom-shape-divider-bottom-1700638250 .shape-fill {
+    fill: #FFFFFF;
+}
+        .header{
+            width: 100%;
+            height: 40px;
+            border: 2px solid black;
+          
+            
+        }
+        .header img{
+            width: 30px;
+            height: 30px;
+            margin-left: 20px;
+            margin-top: 3px;
+            float: left;
+        }
+      
+          nav{
+            float: right;
+        
+          }
+          nav a{
+            padding: 7px;
+            margin-right: 20px;
+            font-size: 20px;
+            text-decoration: none;
+          }
+          nav button{
+            padding: 6px;
+            margin-right: 20px;
+            margin-top: 3px;
+            background-color: lightcoral;
+          }
+        .slide{
+            width: 100%;
+            height: 500px;
+            background-image:url(img/coofee.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            margin-bottom: 4px;
+            
+        }
+        .boxes-main{
+            width: 60%;
+            /* background-color: white; */
+            height: 150px;
+            position: absolute;
+            left: 200px;
+            top: 350px;
+        }
+        .slide .boxes-main .box{
+              width: 30%;
+              height: 150px;
+              float: left;
+              margin-left: 10px;
+             border: 2px solid ;
+               line-height: 150px;
+               background-image: linear-gradient(to right,#EB5757,#000000);
+        }
+        .slide .boxes-main .box h3{
+           /* margin-left: 5px; */
+           text-align: center;
+           color: #FFFFFF;
+        }
+        .slide .paragraph{
+              width: 50%;
+              height: 200px;  
+              position: absolute;
+              left: 250px;
+              top: 100px;
+              box-shadow: 10px 10px 10px white;
+              color: white;
+            }
+            .slide .paragraph:hover{
+             transform: scale(1.2); 
+             border-style: double;
+             border-color: rgb(133, 31, 31);
+             border-radius: 10px; 
+            }
+            .slide .paragraph p{
+                 text-align: justify;
+                 
+            }
+            .slide .paragraph button{
+                padding: 10px;
+                background-color:  pink;
+                margin-left: 200px;
+                margin-top: 20px;
+            }
+            .slide .paragraph button:hover{
+        transform: scale(1.2); 
+            border-style: dotted;
+             border-color: red;
+             border-radius: 10px;
+        }
+        .content{
+            width: 100%;
+            height: 550px;
+            /* background-color: green ; */
+          
+        }
+        .main-contain{
+            width: 50%;
+            height: 500px;
+             /* background-color: lightgrey;  */
+            position: relative;
+            top: 50px;
+            left: 250px;
+        }
+        .main-contain h2{
+            padding: 10px;
+            color: black;
+            margin-left: 50px;
+            text-decoration: double overline;
+            /* text-decoration: underline; */
+            text-transform: capitalize;
+            /* word-break: break-all; */
+            text-shadow: 2px 3px 7px red;
+        }
+        .content .main-contain img{
+            width: 200px;
+            height: 200px;
+            float: left;
+            
+        }
+        .content .main-contain .first{
+            width: 100%;
+            height: 200px;
+            margin-left: 35px;
+            margin-top: 20px;
+        }
+        .content .main-contain .first p{
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-left: 30px;
+            padding: 10px;
+        }
+        .content .main-contain .second{
+            width: 100%;
+            height: 200px;
+            margin-left: 35px;
+            margin-top: 20px;
+        }
+        .content .main-contain .second p{
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-left: 30px;
+            padding: 10px;
+        }
+       
+        .slider2{
+            width: 100%;
+            height: 400px;
+            /* background-color: rgb(241, 10, 10); */
+            background-image: linear-gradient(to right,#200122,#6f0000);
+            background-repeat: no-repeat;
+            background-size: cover;      
+          }
+        .slider2 .slider2-main{
+              width: 70%;
+              height: 380px;
+              /* background-color: aliceblue; */
+              position: relative;
+              top: 10px;
+              left: 170px;
+        }
+        .slider2-main-first{
+            width: 50%;
+            height: 370px;
+            /* background-color: rgb(177, 149, 149); */
+            float: left;
+            margin-top: 5px;
+        }
+        .slider2-main-first .box{
+            width: 50%;
+            height: 150px;
+            float: left;
+            margin-top: 30px;
+            color: white;
+        }
+        .slider2-main-first .box a{
+            text-decoration: none;
+            color: wheat;
+        }
+        .slider2-main-second{
+            width: 50%;
+            height: 370px;
+            /* background-color: rgb(220, 118, 118); */
+            float: left;
+            margin-top: 5px;
+            color: white;
+        }
+        .slider2-main-second h2{
+            margin-left: 25px;
+            margin-top: 50px;
+            color: white;
+        }
+        .slider2-main-second p{
+            text-align: justify;
+            color: white;
+
+        }
+        .slider2-main-second button{
+             padding: 20px;
+             font-size: x-large;
+             border-radius: 10px;
+             background-color: #EB5757;
+             position: relative;
+             top: 20px;
+             left: 100px;
+        }
+        .slider2-main-second button:hover{
+        transform: scale(1.2); 
+            border-style: dotted;
+             border-color: red;
+             border-radius: 10px;
+        }
+        .footer{
+            width: 100%;
+            height: 15in 0px;
+            background-color: rgb(245, 205, 205);
+        }
+        .outerborder{
+            width: 70%;
+            margin: 0 auto;
+           
+        }
+    </style>
+</head>
+<body>
+<div class="outerborder">
+     <div class="header">
+        <img src="img/coofee.jpg">
+           
+              <div class="nav">
+                <nav>
+                    <a href="#">Create By Swapnil...</a>
+                   <a href="#">Home</a>
+                   <a href="#">Visit Coffee</a>
+                   <a href="#">About us</a>
+                   <a href="#">Coontact</a>
+                   <a href="#">Info</a>
+                      <button>Visit Food</button>
+                </nav>
+              </div>
+     </div>
+
+     <div class="slide">
+         
+          <div class="boxes-main">
+              <div class="box">
+                <h3><ion-icon name="cafe-outline"></ion-icon>Best Coffee</h3>
+              </div>
+              <div class="box">
+                
+                <h3><ion-icon name="fast-food-outline"></ion-icon>Fast Cooking</h3>
+              </div>
+              <div class="box">
+                <h3><ion-icon name="bicycle-outline"></ion-icon>Free Delevery</h3>
+              </div>
+          </div>
+
+               <div class="paragraph">
+                <h1>E-Commerce HTML Theme for Cafe</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id consequuntur illo ex quibusdam incidunt aliquid nostrum asperiores non, blanditiis laborum veritatis esse ab rerum repellat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, dolore? Quisquam maiores consequuntur id!</p>
+                    <button>Food Order</button>
+                </div>
+         <div class="custom-shape-divider-bottom-1700638250">
+         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+        </div>
+     </div>
+
+     <div class="content">
+      <div class="main-contain">
+        
+             <h2>You Will Enjoy our cafe if you Love</h2>
+            <div class="first">
+               <img src="img/cupcoffee.jpg">
+           
+            
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum repellat soluta qui blanditiis quae magnam, quod similique facere laborum fuga voluptates voluptatem consequuntur, id excepturi. Id eligendi modi sequi autem?</p>
+             </div>
+
+             <div class="second">
+                        
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum repellat soluta qui blanditiis quae magnam, quod similique facere laborum fuga voluptates voluptatem consequuntur, id excepturi. Id eligendi modi sequi autem?</p>
+                <img src="img/cupcoffee.jpg">
+            
+            </div>
+      </div>
+     </div>
+
+     <div class="slider2">
+        <div class="slider2-main">
+            <div class="slider2-main-first">
+                   <div class="box">
+                       <h3>Our Team</h3>
+                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, iste.</p>
+                       <a href="#">Click Here</a>
+                   </div>
+                   <div class="box">
+                    <h3>Our Coffee</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, iste.</p>
+                    <a href="#">Click Here</a>
+                   </div>
+                   <div class="box">
+                    <h3>Our Philosophy</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, iste.</p>
+                    <a href="#">Click Here</a>
+                   </div>
+                   <div class="box">
+                    <h3>Our Speed</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, iste.</p>
+                    <a href="#">Click Here</a>
+                   </div>
+            </div>
+            <div class="slider2-main-second">
+                   <h2>4 REASONS TO VISIT US...</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium necessitatibus facilis, sunt tempora inventore maiores quisquam, laborum sint reiciendis fuga eos, eveniet quaerat. Quaerat voluptas facere magnam error pariatur illo, quis ullam dolor consectetur sit optio consequuntur inventore nobis iusto, possimus ab incidunt. Sed repellendus molestiae, nisi mollitia aut porro.</p>
+                    <button>Visit Us..</button>
+                    
+                </div>
+        </div>
+     </div>
+
+     <div class="footer">
+        <h1>footer</h1>
+     </div>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
